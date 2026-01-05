@@ -1,8 +1,12 @@
 import React from 'react'
+import NavBar from '../components/NavBar';
 
 const Home_page = () => {
   return (
-    <div><h1>aqui temos algo</h1></div>
+    <div>
+      <NavBar />
+      <h1>Bem vindo ao meu portifolio</h1>
+    </div>
   )
 }
 

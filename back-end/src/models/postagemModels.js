@@ -17,9 +17,13 @@ const postagemSchema = new mongoose.Schema({
         tipe: Date,
         require: [true, 'Informe quando você terminou este projeto']
     },
-    link:{
+    linkFT:{
         tipe: String,
-        require: [true]
+        require: [true, 'Adicione o link da pasta onde se econtra as imagens do projeto']
+    },
+    linkPJ:{
+        tipe: String,
+        require: [false, 'Insira o link do site/projeto caso esteja no ar']
     }
 })
 
